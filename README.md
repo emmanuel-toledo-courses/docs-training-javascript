@@ -16,7 +16,7 @@ Generar una app que, a partir de dos valores, genere tanto la suma, resta, multi
 
 Generar una app que calcule el área de un cuadrado y muestre el resultado en consola.
 
-# USO DE IF
+# Tareas 2
 
 ## ¿Es par?
 
@@ -40,7 +40,7 @@ Si el valor total es mayor de 1000, aplicar un descuento del 10%.
 
 Si el usuario cuenta con un cupón, aplicar al total con descuento, otro descuento del 20%.
 
-# Tareas 2
+# Tareas 3
 
 ## Contabilizador
 
@@ -74,7 +74,7 @@ A partir de un valor númerico definir el número de pisos que tendrá un arbol 
 *****
 ```
 
-# Tareas 3
+# Tareas 4
 
 ## Calcular área - Con función
 
@@ -98,7 +98,7 @@ Programa que valide de un arreglo de numeros, cuales son par e impar, hacer uso 
 
 NO COLOCAR DENTRO DE LA FUNCIÓN LOS MENSAJES console.log.
 
-# Tareas 4
+# Tareas 5
 
 ## ¿Es par? - Con función & While
 
@@ -130,7 +130,7 @@ Imprimir en consola:
 4 + 9 = 13
 5 + 10 = 15
 
-# Tareas 5
+# Tareas 6
 
 ## Abstracciones
 
@@ -144,7 +144,7 @@ Generar un objeto que contenga las propiedades (generales / básicas) de un proy
 
 Mostrar a partir de una función que reciba como parametro un arreglo, y este por medio de un bucle, muestre el listado de las actividades enumeradas.
 
-# Tareas 6
+# Tareas 7
 
 ## Días de la semana
 
