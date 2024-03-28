@@ -184,3 +184,14 @@ ocupados:  luis, juan, pedro,
 libres: sara, perez, 
 
 Debe de ser una función la que haga dicho proceso.
+
+# Tareas 8
+
+## CRUD de Autos
+
+Generar un CRUD referente a los autos de una compañía.
+- Color: string
+- Marca: string
+- Modelo: string
+- Puertas: number
+- ¿Automatico?: boolean
