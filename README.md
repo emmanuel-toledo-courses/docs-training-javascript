@@ -195,3 +195,18 @@ Generar un CRUD referente a los autos de una compañía.
 - Modelo: string
 - Puertas: number
 - ¿Automatico?: boolean
+
+# Tareas 9
+
+## Titan class
+
+Generar una clase llamada ```Titan``` que tendrá las siguientes propiedades.
+- Nombre
+- Altura
+- Fuerza
+- Vida
+- ¿Esta Vivo?
+
+Y deberá de tener las siguientes acciones.
+- ataque: Mostrar un ataque del titan siempre y cuando este vivo.
+- quitarVida: Se le eliminará a la vida del titan una cantidad X que se le envie como parametro de entrada, mostrar mensaje al respecto. Cuando la vida sea cero, propiedad ¿Esta Vivo? cambiara a false. Con cada nuevo quitarVida si ya no esta vivo, mostrar mensaje que no esta vivo.
