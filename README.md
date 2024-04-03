@@ -210,3 +210,21 @@ Generar una clase llamada ```Titan``` que tendrá las siguientes propiedades.
 Y deberá de tener las siguientes acciones.
 - ataque: Mostrar un ataque del titan siempre y cuando este vivo.
 - quitarVida: Se le eliminará a la vida del titan una cantidad X que se le envie como parametro de entrada, mostrar mensaje al respecto. Cuando la vida sea cero, propiedad ¿Esta Vivo? cambiara a false. Con cada nuevo quitarVida si ya no esta vivo, mostrar mensaje que no esta vivo.
+
+# Tareas 10
+
+## Calcular área rectangulo
+
+Diseñar HTML y JS para el calculo del área de un rectangulo.
+- InputLadoA
+- InputLadoB
+- ButtonCalcularArea
+
+Utilizar evento 'click' del botón para realizar el calculo.
+
+Crear una clase llamada 'Rectangulo' con propiedades:
+- ladoA
+- ladoB
+
+Y función:
+- calcularArea
