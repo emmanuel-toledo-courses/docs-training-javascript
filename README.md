@@ -228,3 +228,31 @@ Crear una clase llamada 'Rectangulo' con propiedades:
 
 Y función:
 - calcularArea
+
+# Tareas 11
+
+## Matematicas retrasadas
+
+Generar 4 timeouts usando el método que más te guste, que calcule.
+- Suma
+- Resta
+- División
+- Multiplicación
+
+Mostrar uno seguido de otro, configurando un delay diferente.
+
+## Activar contador
+
+Generar una app que, al dar click a un botón, active el intervalo, al dar click en otro, detenga el intervalo.
+
+## Promesas matematicas
+
+Generar una promesa que retorne:
+- Suma
+- Resta
+- División
+- Multiplicación
+
+De dos datos predefinidos.
+
+La promesa debe de tardar por lo menos 2.5 segundos.
