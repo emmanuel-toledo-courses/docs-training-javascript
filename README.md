@@ -256,3 +256,36 @@ Generar una promesa que retorne:
 De dos datos predefinidos.
 
 La promesa debe de tardar por lo menos 2.5 segundos.
+
+# Día 12
+
+Considerar en ambas practicas patrón MVC
+
+## Figuras Geometricas
+
+Generar la siguiente clase PADRE:
+- Figura:
+    - calcularArea()
+
+Generar la siguientes clases HIJA:
+- Cuadrado: hereda de Figura - Herencia
+    - lado
+    - calcularArea() - Polimorfismo
+- Triangulo: hereda de Figura - Herencia
+    - base
+    - altura
+    - calcularArea() - Polimorfismo
+
+Crear una instancia de las clases Triangulo & Cuadrado.
+
+## Autenticación
+
+Generar la siguiente clase:
+
+Usuario:
+    - usuario
+    - #contrasenna
+    - setContrasenna() - Setter - Encapsulamiento
+    - getContrasenna() - Getter - Encapsulamiento
+
+Crear una instancia de la clase.
