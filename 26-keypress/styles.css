@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+
+/* 
+h1 {
+    color: white;
+} 
+*/
+.key-pushed {
+    color: white;
+    width: 100%;
+    text-align: center;
+}

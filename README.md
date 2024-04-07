@@ -283,9 +283,20 @@ Crear una instancia de las clases Triangulo & Cuadrado.
 Generar la siguiente clase:
 
 Usuario:
-    - usuario
-    - #contrasenna
+- usuario
+- #contrasenna
     - setContrasenna() - Setter - Encapsulamiento
     - getContrasenna() - Getter - Encapsulamiento
 
 Crear una instancia de la clase.
+
+
+# Día 12
+
+## Numero RANDOM
+
+Generar una app que, al presionar un botón, muestre en la DOM, un número RANDOM generado desde el click del botón.
+
+Tiene que ser un numero de entre 1 y 100.
+
+Mostrar otro texto en la parte inferior del número RANDOM que indique si es un número par o impar.
