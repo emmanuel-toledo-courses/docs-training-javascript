@@ -290,8 +290,7 @@ Usuario:
 
 Crear una instancia de la clase.
 
-
-# Día 12
+# Día 13
 
 ## Numero RANDOM
 
