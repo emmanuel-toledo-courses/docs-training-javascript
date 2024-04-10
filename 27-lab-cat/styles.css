@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+}
+
+.cat-row {
+    width: 100%;
+    display: flex; /* Modificamos la disposición a una flexible en el sitio web */
+    align-items: center; /* Centra el contenido verticalmente (depende de display: flex) */
+    justify-content: center; /* Centra el contenido horizontalmente (depende de display: flex) */
+    /* background-color: pink; */
+}
+
+.cat-block {
+    width: 50px;
+    height: 50px;
+    /* background-color: aqua; */
+    display: inline-block;
+    cursor: pointer;
+}
+
+.cat-block > p {
+    text-align: center;
+}
+
+
+.border-left {
+    border-left: 4px solid black;
+}
+
+.border-top {
+    border-top: 4px solid black;
+}
+
+.border-right {
+    border-right: 4px solid black;
+}
+
+.border-bottom {
+    border-bottom: 4px solid black;
+}
+
+.cat-reset-container {
+    /* background-color: aquamarine; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid lightblue;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+}
+

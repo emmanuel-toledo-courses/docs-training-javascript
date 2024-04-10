@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importamos estilos CSS -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>JUEGO DEL GATO</h1>
+    <hr>
+    <p>Este juego es una prueba de como hacerlo con JS</p>
+
+    <!-- This is the cat game container -->
+    <div class="cat-container">
+        <!-- display: block -->
+        <div class="cat-row">
+            <!-- display: inline-block -->
+            <div class="cat-block"></div>
+            <div class="cat-block border-left border-right"></div>
+            <div class="cat-block"></div>
+        </div>
+
+        <!-- display: block -->
+        <div class="cat-row">
+            <!-- display: inline-block -->
+            <div class="cat-block border-bottom border-top"></div>
+            <div class="cat-block border-left border-right border-bottom border-top"></div>
+            <div class="cat-block border-bottom border-top"></div>
+        </div>
+
+        <!-- display: block -->
+        <div class="cat-row">
+            <!-- display: inline-block -->
+            <div class="cat-block"></div>
+            <div class="cat-block border-left border-right"></div>
+            <div class="cat-block"></div>
+        </div>
+    </div>
+
+    <div class="cat-reset-container">
+        <button id="btn-reset">RESET</button>
+    </div>
+
+    <!-- Importamos código JS -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
