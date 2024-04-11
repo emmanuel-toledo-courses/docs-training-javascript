@@ -299,3 +299,9 @@ Generar una app que, al presionar un botón, muestre en la DOM, un número RANDO
 Tiene que ser un numero de entre 1 y 100.
 
 Mostrar otro texto en la parte inferior del número RANDOM que indique si es un número par o impar.
+
+# Día 14
+
+## Titan ganador
+
+Mostrar en la practica titan, quien fue el que gano, tomando en cuenta la vida en cero de su oponente.
