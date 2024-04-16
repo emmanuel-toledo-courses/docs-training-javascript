@@ -43,6 +43,7 @@
 
 /* SEARCH FORM STYLES */
 .search-form {
+    margin: 0 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,6 +113,7 @@
     text-transform: capitalize;
 }
 
+/* RESPONSIVE STYLES */
 @media (max-width: 966px) {
     .heroes-container .superhero-card {
         max-width: 300px;
@@ -124,4 +126,26 @@
         margin-right: 0px;
         max-width: 500px;
     }
+}
+
+@media (max-width: 880px) {
+
+    .navbar-header {
+        height: auto;        
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .search-form {
+        margin: 0x;
+    }
+
+    .navbar-header > * {
+        margin-bottom: 10px;
+    }
+
+    .navbar-header > :first-child {
+        margin-top: 10px;
+    }
+    
 }

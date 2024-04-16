@@ -9,7 +9,7 @@ const filterByPublisher = (heroes, publisher) => {
 
 const filterByName = (heroes, name) => {
   const filteredHeroes = heroes.filter((hero) => {
-    if (hero.superhero.includes(name)) {
+    if (hero.superhero.toLowerCase().includes(name.toLowerCase())) {
       return hero;
     }
   });
