@@ -1,0 +1,70 @@
+/* NAVBAR HEADER STYLES */
+.navbar-header {
+    height: 60px;
+    color: #FFFFFF;
+    /* Color con valor hexadecimal */
+    background-color: #004458;
+
+    padding: 0px 30px;
+    border-bottom: 1px solid #D3D3D3;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.navbar-header>.title {
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.navbar-header > .menu {
+    list-style-type: none;
+    /* Quita los estilos (o puntitos) de un listado (ul | ol) */
+}
+
+.navbar-header .menu-item {
+    color: #FFFFFF;
+    text-align: center;
+    display: inline-block;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+/* SEARCH FORM STYLES */
+.search-form {
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-form .control-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-form .control-container i {
+    color: #004458;
+    position: absolute;
+    right: 20px;
+}
+
+.search-form .control-container input {
+    width: 300px;
+    /* 
+        8px = top
+        50px = right
+        8px = bottom
+        20px = left
+     */
+    padding: 8px 50px 8px 20px;
+    border-radius: 20px;
+    border: 1px solid #D3D3D3;
+}
