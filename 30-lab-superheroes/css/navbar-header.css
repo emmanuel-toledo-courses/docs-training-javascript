@@ -10,10 +10,12 @@
     margin-bottom: 30px;
 
     display: flex;
+
+    
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-
+    
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -67,4 +69,28 @@
     padding: 8px 50px 8px 20px;
     border-radius: 20px;
     border: 1px solid #D3D3D3;
+}
+
+/* RESPONSIVE DESIGN STYLES */
+@media (max-width: 900px) {
+    .navbar-header {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .search-form {
+        margin: 0;
+    }
+
+    /* Afectamos los estilos de TODOS los HIJOS de .navbar-header */
+    .navbar-header > * {
+        margin-bottom: 10px;
+    }
+
+    /* Afectamos al PRIMER HIJO de .navbar-header (.navbar-header > .title) */
+    .navbar-header > :first-child {
+        margin-top: 10px;
+    }
+
 }
