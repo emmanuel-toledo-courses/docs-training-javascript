@@ -1,0 +1,41 @@
+.countries-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.countries-container .country {
+    width: 300px;
+    margin: 40px 10px 0px 10px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.countries-container .country img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.countries-container .country .info {
+    margin-top: 20px;
+}
+
+.countries-container .country .info p {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.countries-container .country .info span {
+    font-weight: normal;
+}

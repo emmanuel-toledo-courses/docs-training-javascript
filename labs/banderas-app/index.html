@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/loader.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/countries.css">
+
+    <title>Países App</title>
+</head>
+
+<body>
+    <!-- Loader -->
+    <div id="loader" class="loader-container flex-center-h-v display-none">
+        <div>
+            <div class="flex-center-h-v padding-b-20">
+                <div class="loader"></div>
+            </div>
+            <div class="flex-center-h-v padding-t-20">
+                <p class="text-semibold">Cargando...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <h1>PAÍSES APP</h1>
+    </header>
+
+    <!-- Filter form -->
+    <form id="filter-form" class="filter-form">
+        <input type="text" name="txt-name" id="txt-name" placeholder="Nombre del país...">
+        <select name="chk-region" id="chk-region">
+            <option value="" selected>Continente</option>
+            <option value="Americas">América</option>
+            <option value="Europe">Europa</option>
+            <option value="Africa">Africa</option>
+            <option value="Oceania">Oceania</option>
+            <option value="Asia">Asia</option>
+            <option value="Antarctic">Antártida</option>
+        </select>
+        <button type="submit">
+            Buscar
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+    </form>
+
+    <!-- Countries data content -->
+    <div id="countries-container" class="countries-container">
+        <!-- 
+        <div class="country">
+            <img src="https://flagcdn.com/ga.svg">
+            <div class="info">
+                <p>Nombre oficial: <span>Ejemplo</span></p>
+                <p>Nombre común: <span>Ejemplo</span></p>
+                <p>Región: <span>Ejemplo</span></p>
+            </div>
+        </div>
+        -->
+    </div>
+
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
