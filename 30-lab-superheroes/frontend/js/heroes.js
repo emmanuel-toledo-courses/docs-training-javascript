@@ -21,3 +21,9 @@ const getHeroesByPublisher = (publisher) => {
     .then((response) => response.json())
     .then((data) => filterHeroesByPublisher(data, publisher));
 };
+
+const getHeroesByName = (name) => {
+  fetch('./../backend/db.json')
+    .then((response) => response.json())
+    .then((data) => filterHeroesByName(data, name));
+}

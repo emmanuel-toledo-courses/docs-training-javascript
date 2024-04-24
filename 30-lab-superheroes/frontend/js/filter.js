@@ -14,3 +14,16 @@ const filterHeroesByPublisher = (data, publisher) => {
   });
   addHeroesToPage(heroes);
 };
+
+const filterHeroesByName = (data, name) => {
+
+  const heroes = data.heroes.filter( (heroe) => {
+    // Nombre del superheroe
+    const superhero = heroe.superhero.trim().toLowerCase();
+    if(superhero.includes(name)) {
+      return heroe;
+    }
+  });
+
+  addHeroesToPage(heroes);
+}

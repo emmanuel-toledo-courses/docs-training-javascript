@@ -6,12 +6,10 @@ const initializeComponents = () => {
     // Prevenir la ejecución predefinida
     e.preventDefault();
     const name = document.querySelector("#hero-name").value;
-    console.log(name);
+    getHeroesByName(name.trim().toLowerCase());
   });
 
-  document.querySelector("#title").addEventListener("click", () => {
-    alert("Superhero app");
-  });
+  document.querySelector("#title").addEventListener("click", () => getAllHeroes());
 
   document.querySelectorAll(".menu-item").forEach((menuItem) => {
     menuItem.addEventListener("click", (e) => {
