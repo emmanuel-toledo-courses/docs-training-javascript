@@ -20,6 +20,10 @@
 }
 
 .navbar-header>.title {
+    /* Estilos para cuando usamos etiqueta '<a>' */
+    color: #FFFFFF;
+    text-decoration: none;
+
     cursor: pointer;
     text-transform: uppercase;
 }

@@ -36,6 +36,11 @@ const addHeroesToPage = (heroes) => {
     const heroeCard = document.createElement("div");
     heroeCard.classList.add("superhero-card");
 
+    // Agregamos evento a la tarjeta
+    heroeCard.addEventListener("click", () => {
+      window.location.href = './pages/hero.html?hero-id=' + heroe.id;
+    });
+
     // Agregamos contenido a tarjeta de heroe
     heroeCard.innerHTML = `
     <img src="./imgs/${heroe.img}.jpg" alt="${heroe.superhero}">
@@ -49,6 +54,7 @@ const addHeroesToPage = (heroes) => {
 
     document.querySelector("#heroes-container").append(heroeCard);
   });
+
 };
 
 initializeComponents();
