@@ -40,8 +40,7 @@ body {
   position: relative;
   display: flex;
   align-items: center;
-  box-shadow: rgba(255,255,255, 0.2) 2px 2px 4px;
-
+  box-shadow: rgba(255, 255, 255, 0.2) 2px 2px 4px;
 }
 
 .control-container input {
@@ -74,11 +73,65 @@ body {
     rgba(252, 70, 107, 1) 0%,
     rgba(63, 94, 251, 1) 100%
   );
-  box-shadow: rgba(255,255,255, 0.2) 2px 2px 4px;
+  box-shadow: rgba(255, 255, 255, 0.2) 2px 2px 4px;
 }
 
 .search-gifs-form button i {
   font-size: 14px;
+}
+
+/* ACTIONS STYLES */
+.actions-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  border: none;
+  background: linear-gradient(
+    70deg,
+    rgba(252, 70, 107, 1) 0%,
+    rgba(63, 94, 251, 1) 100%
+  );
+  padding: 6px 20px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  color: var(--bg-white);
+  box-shadow: rgba(255, 255, 255, 0.2) 2px 2px 4px;
+}
+
+.btn i {
+  margin-left: 10px;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  background: rgb(143, 143, 143);
+}
+
+.btn:disabled:active {
+  transform: none;
+}
+
+/* EMPTY STYLES */
+.empty-gifs-container {
+  display: none;
+}
+
+.empty-gifs-container.active {
+  display: block;
+}
+
+.empty-gifs-container .empty-gifs {
+  margin-top: 25px;
+  text-align: center;
+  color: var(--bg-white);
 }
 
 /* GIFS STYLES */
@@ -98,7 +151,7 @@ body {
   max-width: 200px;
   position: relative;
   flex-direction: column;
-  box-shadow: rgba(255,255,255, 0.2) 2px 2px 4px;
+  box-shadow: rgba(255, 255, 255, 0.2) 2px 2px 4px;
 }
 
 .gif-card .name {
@@ -136,33 +189,7 @@ body {
   color: var(--bg-white);
 }
 
-.load-more-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.load-more {
-  background: linear-gradient(
-    70deg,
-    rgba(252, 70, 107, 1) 0%,
-    rgba(63, 94, 251, 1) 100%
-  );
-  padding: 6px 20px;
-  font-size: 12px;
-  cursor: pointer;
-  text-align: center;
-  color: var(--bg-white);
-}
-
-.load-more:active {
-  box-shadow: none;
-  margin-top: 1px;
-}
-
-
 @media (max-width: 360px) {
-
   body {
     padding: 30px 20px;
   }

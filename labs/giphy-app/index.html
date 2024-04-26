@@ -30,24 +30,27 @@
     </form>
 
     <!-- Cargar más elementos -->
-    <div style="display: flex; justify-content: space-between; align-items: center;">
-        <div class="load-more-container">
-            <span class="load-more">Cargar más...</span>
-        </div>
-        <div class="load-more-container">
-            <span class="load-more">
-                Me gusta
-                <i class="fa-solid fa-heart"></i>
-            </span>
-        </div>
+    <div class="actions-container">
+        <button id="btn-load-more" class="btn" disabled>Cargar más...</button>
+        <button id="btn-favorites" class="btn">
+            Favoritos
+            <i class="fa-solid fa-heart"></i>
+        </button>
     </div>
 
     <!-- Contenedor de Gifs -->
     <div id="gifs-container" class="gifs-container"></div>
 
+    <!-- Contenedor de Gifs vacio -->
+    <div id="empty-gifs-container" class="empty-gifs-container">
+        <p class="empty-gifs">No se cuentan Gifs favoritos :c</p>
+    </div>
+
     <script src="./js/models/gif.js"></script>
     <script src="./js/utils/utils.js"></script>
     <script src="./js/controller/gif-controller.js"></script>
+    <script src="./js/controller/localstorage-controller.js"></script>
+    
     <script src="./main.js"></script>
 
 </body>
