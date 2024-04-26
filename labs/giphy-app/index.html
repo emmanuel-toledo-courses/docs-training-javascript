@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Giphy App</title>
+</head>
+
+<body>
+    <!-- Titulo -->
+    <h1 class="app-title">
+        Giphy App
+    </h1>
+
+    <!-- Formulario de busqueda -->
+    <form id="search-gifs-form" class="search-gifs-form">
+        <div class="control-container">
+            <input type="text" name="word" id="word" placeholder="Escribe cualquier cosa..." />
+            <i class="clear-icon fa-solid fa-xmark" att-for="word"></i>
+        </div>
+        <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+    </form>
+
+    <!-- Cargar más elementos -->
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div class="load-more-container">
+            <span class="load-more">Cargar más...</span>
+        </div>
+        <div class="load-more-container">
+            <span class="load-more">
+                Me gusta
+                <i class="fa-solid fa-heart"></i>
+            </span>
+        </div>
+    </div>
+
+    <!-- Contenedor de Gifs -->
+    <div id="gifs-container" class="gifs-container"></div>
+
+    <script src="./js/models/gif.js"></script>
+    <script src="./js/utils/utils.js"></script>
+    <script src="./js/controller/gif-controller.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
